@@ -524,30 +524,32 @@ footer li:last-child {
 
 /* css-politicas-de-privacidad */
 /* Estilos para el contenido principal */
-.h1pol {
-    font-size: 28px;
-    margin-bottom: 10px;
-}
+
 .h2pol {
     font-size: 24px;
     margin-bottom: 10px;
 }
+
 .sectionpol {
     padding: 20px;
 }
+
 .ulpol {
     list-style-type: disc;
     margin-left: 20px;
     margin-bottom: 20px;
 }
+
 .lipol {
     margin-bottom: 5px;
 }
+
 .ppol {
     font-size: 16px;
     line-height: 1.5;
     margin-bottom: 20px;
 }
+
 .mainpol {
     display: flex;
     justify-content: center;
@@ -562,19 +564,11 @@ footer li:last-child {
     margin: 0 auto;
     padding: 20px;
 }
-.h1term {
-    font-size: 28px;
-    margin-bottom: 10px;
-}
+
 .pterm {
     font-size: 16px;
     line-height: 1.5;
     margin-bottom: 20px;
-}
-.h1term {
-    text-align: center;
-    font-size: 36px;
-    margin-bottom: 30px;
 }
 
 .pterm {
@@ -601,9 +595,6 @@ footer li:last-child {
     margin-right: 10px;
 }
 
-.h1dest {
-    margin: 0;
-}
 
 .sectiondest {
     display: flex;
@@ -705,10 +696,6 @@ footer li:last-child {
 /* compra de articulos */
 
 
-.h1com {
-    color: #333;
-    text-align: center;
-}
 
 .formcom {
     max-width: 400px;
