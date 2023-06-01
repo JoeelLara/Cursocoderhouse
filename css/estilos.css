@@ -67,22 +67,15 @@ h2{
     padding: 14px 16px;
 }
 
+.lastarticle{
+    margin-bottom: 30px;
+}
+
 .container li a:hover {
     background-color: #3d3d3d;
 }
 
-/* logo sticky wpp */
-
-/* .whatsapp-logo {
-    position: sticky;
-    bottom: 10px;
-    right: 10px; 
-    width: 100px; 
-    height: auto;
-    z-index: 999; 
-} */
 /* Estilos para el logotipo */
-
 .logocontainer {
     height: 50px;
     max-width: 100px;
@@ -641,11 +634,12 @@ footer li:last-child {
     border: 1px solid #333;
     color: #333;
 }
-/* css-separador index */
+
+/* barra separadora */
 .separador {
     border-bottom: 5px solid #3f3d3d;
 }
-
+/* barra separadora */
 
 .pacc {
     margin-bottom: 5px 0;
@@ -957,4 +951,3 @@ footer li:last-child {
     font-size: 14px;
     }
 }
-
