@@ -1,0 +1,29 @@
+// estilos de politicas de privacidad
+
+.sectionpol {
+    padding: 20px;
+}
+
+.ulpol {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.lipol {
+    margin-bottom: 5px;
+}
+
+.ppol {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.mainpol {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px;
+}

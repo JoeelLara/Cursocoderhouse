@@ -1,16 +1,5 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap");
-* {
-  margin: 0px;
-  padding: 0px;
-  font-family: roboto;
-}
-
-body {
-  height: 1000px;
-  position: relative;
-}
-
 .bodyc {
   background-color: #fcf8c3;
   max-width: 100%;
@@ -81,23 +70,6 @@ h2 {
   object-fit: contain;
 }
 
-.card {
-  height: 250px;
-  width: 300px;
-  border: 2px solid black;
-  padding: 0px;
-  margin: 100px;
-}
-
-.cardcontainer {
-  display: flex;
-  justify-content: space-around;
-}
-.cardcontainer .cardremeras {
-  margin-top: 0;
-  background-color: bisque;
-}
-
 footer {
   background-color: #333;
   color: #fff;
@@ -149,51 +121,6 @@ footer li:last-child {
   height: auto;
 }
 
-form {
-  width: 500px;
-  margin: 0 auto;
-  font-family: Arial, sans-serif;
-}
-
-label {
-  display: block;
-  margin-bottom: 10px;
-  font-weight: bold;
-  font-size: 16px;
-}
-
-input[type=text], input[type=email], textarea {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 20px;
-  border-radius: 5px;
-  border: none;
-  background-color: #f2f2f2;
-  font-size: 16px;
-}
-
-textarea {
-  height: 150px;
-}
-
-input[type=submit] {
-  background-color: #4CAF50;
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  font-size: 16px;
-  cursor: pointer;
-}
-
-input[type=submit]:hover {
-  background-color: #3e8e41;
-}
-
-.main {
-  padding: 20px;
-}
-
 .bodyreme {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -201,7 +128,7 @@ input[type=submit]:hover {
 
 .headerreme {
   background-color: #333;
-  color: #fff;
+  color: #ff0000;
   padding: 20px;
 }
 
@@ -232,6 +159,7 @@ input[type=submit]:hover {
   background-color: #fff;
   border: 1px solid #ddd;
   box-shadow: 0px 0px 5px #ddd;
+  margin: 20px;
 }
 .productreme img {
   max-width: 100%;
@@ -274,13 +202,6 @@ input[type=submit]:hover {
   background-color: #E54347;
 }
 
-.pantalones {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  padding: 20px;
-}
-
 .zapatillas {
   display: flex;
   flex-wrap: wrap;
@@ -308,54 +229,11 @@ input[type=submit]:hover {
   max-width: 100%;
 }
 
-.destacados {
-  max-width: 960px;
-  margin: 0 auto;
+.pantalones {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-}
-
-.articledes {
-  margin: 20px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  padding: 10px;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-  transition: box-shadow 0.3s ease;
-  width: calc(33.33% - 40px);
-  display: flex;
-  flex-direction: column;
   justify-content: space-between;
-}
-.articledes :hover {
-  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
-}
-.articledes .imgdes {
-  max-width: 100%;
-}
-.articledes .h3des {
-  font-size: 1.2em;
-  margin-top: 10px;
-  margin-bottom: 5px;
-}
-.articledes .p {
-  font-size: 0.9em;
-  margin-top: 0;
-  margin-bottom: 10px;
-}
-.articledes .buttondes {
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  padding: 8px 12px;
-  font-size: 1em;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-.articledes .buttondes:hover {
-  background-color: #0056b3;
+  padding: 20px;
 }
 
 .about-us {
@@ -369,17 +247,6 @@ input[type=submit]:hover {
   text-align: center;
 }
 
-.h2us {
-  font-size: 36px;
-  margin-bottom: 20px;
-}
-
-.pus {
-  font-size: 18px;
-  line-height: 1.5;
-  margin-bottom: 20px;
-}
-
 .about-uss {
   padding: 50px 0;
 }
@@ -388,19 +255,18 @@ input[type=submit]:hover {
   text-align: center;
   margin-bottom: 30px;
 }
-.about-header .h2us {
-  font-size: 36px;
-  font-weight: 600;
-  color: #333;
-}
 
 .about-content {
   max-width: 800px;
   margin: 0 auto;
-  font-size: 18px;
   line-height: 1.5;
   text-align: justify;
-  padding: 0 20px;
+}
+
+.containerus {
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .mainos {
@@ -411,21 +277,45 @@ input[type=submit]:hover {
   margin: 50px;
 }
 
-.h2os {
-  font-size: 24px;
-  margin-bottom: 10px;
+form {
+  width: 500px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
 }
 
-.pos {
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
   font-size: 16px;
-  line-height: 1.5;
-  text-align: center;
-  margin-bottom: 20px;
 }
 
-.h2pol {
-  font-size: 24px;
-  margin-bottom: 10px;
+input[type=text], input[type=email], textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: #f2f2f2;
+  font-size: 16px;
+}
+
+textarea {
+  height: 150px;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #3e8e41;
 }
 
 .sectionpol {
@@ -478,99 +368,6 @@ input[type=submit]:hover {
 .literms {
   margin-bottom: 10px;
 }
-.literms :before {
-  content: "• ";
-  color: #2ecc71;
-  font-size: 18px;
-  margin-right: 10px;
-}
-
-.sectiondest {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding: 20px;
-}
-
-.productdest {
-  background-color: #f4f4f4;
-  border: 1px solid #ccc;
-  margin: 10px;
-  padding: 10px;
-  text-align: center;
-  width: 200px;
-}
-.productdest .imgdest {
-  max-width: 100%;
-}
-.productdest .h2dest {
-  font-size: 1.2rem;
-  margin: 10px 0;
-}
-.productdest .pdest {
-  margin: 10px 0;
-}
-.productdest .buttondest {
-  background-color: #333;
-  border: none;
-  color: #fff;
-  cursor: pointer;
-  font-size: 1rem;
-  padding: 10px;
-  transition: all 0.3s ease-in-out;
-}
-.productdest .buttondest:hover {
-  background-color: #fff;
-  border: 1px solid #333;
-  color: #333;
-}
-
-.separador {
-  border-bottom: 5px solid #3f3d3d;
-}
-
-.pacc {
-  margin-bottom: 5px 0;
-}
-
-.imgacc {
-  max-width: 100%;
-  height: auto;
-}
-
-.clothing-sectionprin {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.clothing-itemprin {
-  flex-basis: 30%;
-  text-align: center;
-}
-.clothing-itemprin .imgprin {
-  max-width: 100%;
-}
-.clothing-itemprin .h3prin {
-  font-size: 1.2rem;
-  margin: 1rem 0 0.5rem;
-}
-.clothing-itemprin .prin {
-  font-size: 1rem;
-  margin: 0;
-}
-
-.h2accc {
-  font-size: 60px;
-  margin-top: 10px 0;
-}
-
-.hovernav:hover {
-  font-weight: bold;
-  padding: 20px;
-  background-color: rgb(250, 250, 250);
-  color: azure;
-}
 
 .formcom {
   max-width: 400px;
@@ -615,6 +412,25 @@ input[type=submit]:hover {
 }
 .buttoncompr :hover {
   background-color: #525252;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: roboto;
+}
+
+body {
+  height: 1000px;
+  position: relative;
+}
+
+.main {
+  padding: 20px;
+}
+
+.separador {
+  border-bottom: 5px solid #3f3d3d;
 }
 
 .my-link {
